@@ -1,0 +1,16 @@
+[Unit]
+Description=HiTemp MQTT Proxy
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=clawbot
+ExecStart=/usr/bin/python3 /home/clawbot/hitemp_proxy.py
+Restart=always
+RestartSec=30
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
