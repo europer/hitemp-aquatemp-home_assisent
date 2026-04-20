@@ -2,7 +2,7 @@
 
 Control and monitor your **HiTemp** or **AquaTemp** compatible hot water heat pump from Home Assistant via MQTT — without the official HACS integration, without session conflicts, and with full parameter validation.
 
-<img src="docs/hitemp_login.jpg" width="300"> <img src="docs/hitemp_app.jpg" width="300"> <img src="docs/ha_card.png" width="400">
+<img src="docs/hitemp_login.jpg" width="180"> <img src="docs/hitemp_app.jpg" width="180"> <img src="docs/ha_card.png" width="220">
 
 ---
 
